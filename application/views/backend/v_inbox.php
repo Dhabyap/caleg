@@ -109,39 +109,7 @@
                             <?php endif;?>
                         </div>
                     </div>
-                    <ul class="menu accordion-menu">
-                        <li><a href="<?php echo site_url('backend/dashboard');?>" class="waves-effect waves-button"><span class="menu-icon icon-home"></span><p>Dashboard</p></a></li>
-                        <li class="droplink"><a href="#" class="waves-effect waves-button"><span class="menu-icon icon-pin"></span><p>Post</p><span class="arrow"></span></a>
-                            <ul class="sub-menu">
-                                <li><a href="<?php echo site_url('backend/post/add_new');?>">Add New</a></li>
-                                <li><a href="<?php echo site_url('backend/post');?>">Post List</a></li>
-                                <li><a href="<?php echo site_url('backend/category');?>">Category</a></li>
-                                <li><a href="<?php echo site_url('backend/tag');?>">Tag</a></li>
-                            </ul>
-                        </li>
-                        <li class=""><a href="<?php echo site_url('backend/inbox');?>" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Relawan</p></a></li>
-                        <li class=""><a href="<?php echo site_url('backend/inbox/krisan');?>" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Kritik dan Saran</p></a></li>
-                        <li class=""><a href="<?php echo site_url('backend/inbox/pendukung');?>" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Pendukung</p></a></li>
-
-                        <li class=""><a href="<?php echo site_url('backend/inbox');?>" class="waves-effect waves-button"><span class="menu-icon icon-envelope"></span><p>Inbox</p></a></li>
-                        <li><a href="<?php echo site_url('backend/comment');?>" class="waves-effect waves-button"><span class="menu-icon icon-bubbles"></span><p>Komentar</p></a></li>
-                        <li><a href="<?php echo site_url('backend/subscriber');?>" class="waves-effect waves-button"><span class="menu-icon icon-users"></span><p>Subscribers</p></a></li>
-                        <li><a href="<?php echo site_url('backend/testimonial');?>" class="waves-effect waves-button"><span class="menu-icon icon-like"></span><p>Testimonials</p></a></li>
-                        <?php if($this->session->userdata('access')=='1'):?>
-                        <li><a href="<?php echo site_url('backend/users');?>" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Users</p></a></li>
-                        <li class="droplink"><a href="<?php echo site_url('backend/settings');?>" class="waves-effect waves-button"><span class="menu-icon icon-settings"></span><p>Settings</p><span class="arrow"></span></a>
-                            <ul class="sub-menu">
-                                <li><a href="<?php echo site_url('backend/settings');?>">Basic</a></li>
-                                <li><a href="<?php echo site_url('backend/home_setting');?>">Home</a></li>
-                                <li><a href="<?php echo site_url('backend/about_setting');?>">About</a></li>
-                                <li><a href="<?php echo site_url('backend/navbar');?>">Navbar</a></li>
-                            </ul>
-                        </li>
-                        <?php else:?>
-                        <?php endif;?>
-                        <li><a href="<?php echo site_url('logout');?>" class="waves-effect waves-button"><span class="menu-icon icon-logout"></span><p>Log Out</p></a></li>
-                        
-                    </ul>
+                    <?= $sidebar; ?>
                 </div><!-- Page Sidebar Inner -->
             </div><!-- Page Sidebar -->
             <div class="page-inner">
@@ -158,6 +126,7 @@
                         <div class="col-md-12">
                             <div class="mailbox-content">
                             <table id="data-relawan" class="display table" style="width: 100%; cellspacing: 0;">
+                            
                                 <thead>
                                     <tr>
                                         <th>No</th>

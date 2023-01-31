@@ -15,8 +15,8 @@ class Users extends CI_Controller{
 	function index(){
 		$data['data']=$this->users_model->get_users();
 		$v['title'] = 'User' ;
-		$data['footer'] = $this->load->view('backend/v_header',$v,TRUE);
-		$data['sidebar'] = $this->load->view('backend/v_sidebar','',TRUE);
+		$data1['user'] = 'active';
+		$data['sidebar'] = $this->load->view('backend/v_sidebar',$data1,TRUE);
 		$this->load->view('backend/v_users',$data);
 		$this->load->helper('text');
 	}

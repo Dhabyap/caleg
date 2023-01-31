@@ -1,4 +1,4 @@
-<?php
+x	<?php
 class Dashboard extends CI_Controller{
 	function __construct(){
 		parent::__construct();
@@ -88,7 +88,8 @@ class Dashboard extends CI_Controller{
 		$v['title'] = 'Dashboard' ;
 		$data['korwil'] = $this->visitor_model->korwil();
 		$data['footer'] = $this->load->view('backend/v_header',$v,TRUE);
-		$data['sidebar'] = $this->load->view('backend/v_sidebar','',TRUE);
+		$data['dahsboard'] = 'active';
+		$data['sidebar'] = $this->load->view('backend/v_sidebar',$data,TRUE);
 		$this->load->view('backend/v_dashboard',$data);
 	}
 

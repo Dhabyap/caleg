@@ -58,6 +58,8 @@ class Inbox extends CI_Controller{
 		LEFT JOIN districts d ON a.id_kecamatan = d.id
 		LEFT JOIN villages e ON a.id_kelurahan = e.id')->result();
 
+        $data1['relawan'] = 'active';
+        $data['sidebar'] = $this->load->view('backend/v_sidebar',$data1,TRUE);
 		$this->load->view('backend/v_inbox',$data);
 	}
 
@@ -101,6 +103,8 @@ class Inbox extends CI_Controller{
 
 		$data['kritik'] = $this->db->query('SELECT * FROM kritik')->result();
 
+        $data1['krisan'] = 'active';
+        $data['sidebar'] = $this->load->view('backend/v_sidebar',$data1,TRUE);
 		$this->load->view('backend/v_krisan',$data);
 	}
 
@@ -144,6 +148,8 @@ class Inbox extends CI_Controller{
 
 		$data['pendukung'] = $this->db->query('SELECT * FROM pendukung')->result();
 
+        $data1['pendukung'] = 'active';
+        $data['sidebar'] = $this->load->view('backend/v_sidebar',$data1,TRUE);
 		$this->load->view('backend/v_pendukung',$data);
 	}
 
@@ -193,6 +199,8 @@ class Inbox extends CI_Controller{
 
         $data['jumlah_suara'] =  $this->db->query('SELECT SUM(jumlah_suara) as jumlah FROM `suara`')->result()[0];
 
+        $data1['suara'] = 'active';
+        $data['sidebar'] = $this->load->view('backend/v_sidebar',$data1,TRUE);
 		$this->load->view('backend/v_suara',$data);
 	}
 

@@ -39,7 +39,7 @@
                     <div class="row">
                         <div class="col-md-3 center">
                             <div class="login-box">
-                                <a href="#" class="logo-name text-lg text-center">Hj. Wiwin Suwindaryati, SH</a>
+                                <a href="#" class="logo-name text-lg text-center">Mang Usep</a>
                                 <p class="text-center m-t-md">Please login into your account.</p>
                                 <?php echo $this->session->flashdata('msg');?>
                                 <form class="m-t-md" action="<?php echo site_url('backend/login/auth');?>" method="post">
@@ -52,7 +52,7 @@
                                     <button type="submit" class="btn btn-success btn-block">Login</button>
                                     
                                 </form>
-                                <p class="text-center m-t-xs text-sm"><?php echo date('Y');?> &copy; Mblog by Dhaby.</p>
+                                <p class="text-center m-t-xs text-sm"><?php echo date('Y');?> &copy; by Dhaby Anggika.</p>
                             </div>
                         </div>
                     </div><!-- Row -->
