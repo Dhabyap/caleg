@@ -12,7 +12,7 @@
                         <li class="<?= $krisan; ?>"><a href="<?php echo site_url('backend/inbox/krisan');?>" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Kritik dan Saran</p></a></li>
                         <li class="<?= $pendukung; ?>"><a href="<?php echo site_url('backend/inbox/pendukung');?>" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Pendukung</p></a></li>
                         <li class="<?= $suara; ?>"><a href="<?php echo site_url('backend/inbox/suara');?>" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Perolehan Suara</p></a></li>
-                        <li class="<?= $visi; ?>"><a href="<?php echo site_url('backend/testimonial');?>" class="waves-effect waves-button"><span class="menu-icon icon-like"></span><p>Visi $ Misi</p></a></li>
+                        <li class="<?= $visi; ?>"><a href="<?php echo site_url('backend/testimonial');?>" class="waves-effect waves-button"><span class="menu-icon icon-like"></span><p>Visi & Misi</p></a></li>
                         <?php if($this->session->userdata('access')=='1'):?>
                         <li class="<?= $user; ?>" ><a href="<?php echo site_url('backend/users');?>" class="waves-effect waves-button"><span class="menu-icon icon-user"></span><p>Pengguna</p></a></li>
                         <li class="droplink"><a href="<?php echo site_url('backend/settings');?>" class="waves-effect waves-button"><span class="menu-icon icon-settings"></span><p>Pengaturan</p><span class="arrow"></span></a>
