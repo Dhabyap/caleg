@@ -124,7 +124,7 @@
                         </div>
 
                         <div class="col-md-12">
-                            <div class="mailbox-content">
+                            <div class="block-content table-responsive">
                             <table id="data-relawan" class="display table">
                                 <thead>
                                     <tr>

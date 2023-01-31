@@ -272,7 +272,7 @@
                     </div>
                 </div><!-- Main Wrapper -->
                 <div class="page-footer">
-                    <p class="no-s"><?php echo date('Y');?> &copy; Powered by M Fikri Setiadi.</p>
+                    <p class="no-s"><?php echo date('Y');?> &copy; Powered by Dhaby</p>
                 </div>
             </div><!-- Page Inner -->
         </main><!-- Page Content -->

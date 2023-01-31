@@ -236,7 +236,8 @@
                                 
                                 <div class="panel-body">
                                 <button type="button" class="btn btn-success m-b-sm" data-toggle="modal" data-target="#myModal">Add New User</button>
-                                  
+                                  <div class="block-content table-responsive">
+
                                     <table id="mytable" class="display table" style="width: 100%; cellspacing: 0;">
                                         <thead>
                                             <tr>
@@ -297,6 +298,8 @@
                                         <?php endforeach;?>
                                         </tbody>
                                        </table>  
+                                  </div>
+
                                 </div>
                             </div>
                                    
@@ -305,7 +308,7 @@
                     </div><!-- Row -->
                 </div><!-- Main Wrapper -->
                 <div class="page-footer">
-                    <p class="no-s"><?php echo date('Y');?> &copy; Powered by M Fikri Setiadi.</p>
+                    <p class="no-s"><?php echo date('Y');?> &copy; Dhaby Anggika.</p>
                 </div>
             </div><!-- Page Inner -->
         </main><!-- Page Content -->
