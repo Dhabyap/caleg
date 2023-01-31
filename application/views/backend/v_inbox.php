@@ -47,7 +47,7 @@
                         </a>
                     </div>
                     <div class="logo-box">
-                        <a href="<?php echo site_url('backend/dashboard');?>" class="logo-text"><span>MBLOG</span></a>
+                        <a href="<?php echo site_url('backend/dashboard');?>" class="logo-text"><span>TEMBUSH</span></a>
                     </div><!-- Logo Box -->
                     <div class="topmenu-outer">
                         <div class="top-menu">
@@ -226,7 +226,7 @@
                 //     e.preventDefault();
                 //     var inbox_id=$(this).data('inbox_id');
 
-                //     window.location = "<?php echo site_url('backend/inbox/read/');?>"+inbox_id;
+                //     window.location = "<?php echo site_url('backend/inbox/read/');?>"+inbox_id;z
                 // });
 
                   $('.btn-delete').on('click',function(){

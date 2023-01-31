@@ -45,7 +45,7 @@
                         </a>
                     </div>
                     <div class="logo-box">
-                        <a href="<?php echo site_url('backend/dashboard');?>" class="logo-text"><span>MBLOG</span></a>
+                        <a href="<?php echo site_url('backend/dashboard');?>" class="logo-text"><span>TEMBUSH</span></a>
                     </div><!-- Logo Box -->
                     <div class="topmenu-outer">
                         <div class="top-menu">

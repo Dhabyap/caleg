@@ -72,7 +72,7 @@
 								<div class="local-scroll">
 									<a href="<?php echo site_url('about');?>" class="btn bg-black white-color">About</a>
 									<span class="btn_seperator"></span>
-									<a href="<?php echo site_url('blog');?>" class="btn bg-black whitre-color hidden-xs">Blog</a>
+									<a href="<?php echo site_url('contact');?>" class="btn bg-black whitre-color hidden-xs">Relawan</a>
 								</div>
 							</div>	
 						</div>
