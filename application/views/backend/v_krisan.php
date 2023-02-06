@@ -125,7 +125,7 @@
 
                         <div class="col-md-12">
                             <div class="block-content table-responsive">
-                            <table id="data-relawan" class="display table">
+                            <table id="data-relawan" class="display table table-striped table-bordered datatable-extended">
                                 <thead>
                                     <tr>
                                         <th width="5%">No</th>

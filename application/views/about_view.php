@@ -21,6 +21,11 @@
 		<link rel="stylesheet" href="<?php echo base_url().'theme/css/font-awesome.min.css'?>"/>
 		
 	</head>
+	<style>
+		/* .subscribe-section {
+		background-color: rgba(100,,0,0)!important;
+	} */
+	</style>
 	<body class="content-animate">
 
 		<!-- PRELOADER

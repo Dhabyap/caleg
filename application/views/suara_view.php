@@ -68,7 +68,7 @@
 									<!--POST LEAVE COMMENT-->
 									<div class="comments-heading text-center mb-30">
 										<hgroup>
-											<h2 class="font-face1 section-heading"><b>Sedang Di kerjakan</b></h2></h2>
+											<h2 class="font-face1 section-heading"><b>Perolehan Suara</b></h2></h2>
 										</hgroup>									
 									</div>
 									<?php echo $this->session->flashdata('msg');?>
